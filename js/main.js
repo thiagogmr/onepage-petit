@@ -58,8 +58,8 @@ if(getCloseBox !== null){
     })
 }
 
-window.addEventListener('scroll', function(){
-    setTimeout(function(){
-        getBox.style.opacity = '0'
-    },1500)
-})
+// window.addEventListener('scroll', function(){
+//     setTimeout(function(){
+//         getBox.style.opacity = '0'
+//     },1500)
+// })
