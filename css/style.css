@@ -295,7 +295,7 @@ iframe{
 	background-color: #FFD801;
 	cursor: pointer;
 	position: relative;
-	z-index: 9999;
+	z-index: 9998;
 }
 
 .logo{
@@ -383,7 +383,7 @@ iframe{
 	.col-45{
 		width: 100%;
 		position: relative;
-		z-index: 9999;
+		z-index: 9998;
 	}
 	.col-55{
 		width: 100%;
@@ -440,9 +440,25 @@ iframe{
 	.row{
 		width: 100%;
 		display: block;
-		padding: 0px 0px;
+		padding: 20px 0px;
+		border-bottom: thin dashed #FFD801;
+	}
+	.row-block{
+		border-bottom: thin dashed #FFD801;
 	}
 	.content{
-		margin-bottom: 10px;
+		margin-bottom: 5px;
+		padding: 0px 0px;
+	}
+	.box{
+		width: 300px;
+		max-width: inherit;
+		position: fixed;
+		top:30px;
+		right: 50%;
+		margin-right: -150px;
+	}
+	p{
+		text-align: center;
 	}
 }
